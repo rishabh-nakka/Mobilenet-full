@@ -1,0 +1,75 @@
+#catty{
+    height: 200px;
+}
+#heading_text{
+    font-family: 'Questrial', sans-serif;
+    color: red;
+}
+hr{
+    background-color: black;
+    height: 1px;
+}
+#webcam{
+    border-width: 2px;
+    border-style: solid;
+    height: 300px;
+    width: 300px;
+    box-shadow: 5px 5px 10px white;
+}
+#webcam_div{
+    box-shadow: 5px 5px 10px white;
+    background-color:#18ccae;
+    border-color:white;
+    border-width:2px;
+    border-style: solid;
+}
+#capture_button{
+    background-color: springgreen;
+    border-radius: 5px;
+    width: 300px;
+    font-family:'Questrial', sans-serif;
+    font-size: 20px;
+}
+body{
+    background-color: #0ceb8a;
+}
+#result_div{
+    background-color:#18ccae ;
+    border-color:white;
+    border-width:2px;
+    border-style: solid;
+    box-shadow: 5px 5px 10px white;
+}
+#result_2{
+    border-width: 2px;
+    border-style: solid;
+    height: 300px;
+    width: 300px;
+    box-shadow: 5px 5px 10px white;
+}
+#identify_button{
+    background-color: springgreen;
+    border-radius: 5px;
+    width: 300px;
+    font-family:'Questrial', sans-serif;
+    font-size: 20px;
+}
+#bulb{
+    height: 150px;
+}
+#guess_div{
+    background-color: white;
+    border-radius: 7px;
+    width: 960px;
+    margin-top: 500px;
+    box-shadow: 5px 5px 10px white;
+}
+#footer{
+    font-family:'Questrial', sans-serif;
+background-color: cyan;
+border-radius: 75px;
+}
+#identifier{
+    font-size: 30px;
+    font-family: 'Questrial', sans-serif;
+}

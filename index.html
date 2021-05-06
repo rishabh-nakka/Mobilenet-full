@@ -1,0 +1,64 @@
+
+<html>
+  <head>
+    <title>MobileNet</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <center>
+   <h1 id="heading_text">Image Identification App<span><img src="logo.gif" id="catty"></span></h1>
+   <hr>
+   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" id="webcam_div">
+    <label>Webcam view-</label>
+   <div id="webcam">
+     
+   </div>
+   <br>
+   <button id="capture_button" onclick="capture()">Capture Image</button>
+
+   </div>
+   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" id="result_div">
+    <label>Snapshot-</label>
+   <div id="result_2">
+     
+   </div>
+   <br>
+   <button id="identify_button" onclick="identify()">Identify Image</button>
+   </div>
+    </center>
+
+    <div id="guess_div">
+      <img src="blub.gif" id="bulb">
+      <span id="identifier"></span>
+    </div>
+    <center>
+      <br><br><br><br><br>
+<div id="footer">
+</div>
+</center>
+
+    
+<script src="main.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+ 
+
